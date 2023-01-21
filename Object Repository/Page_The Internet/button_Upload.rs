@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_username</name>
+   <name>button_Upload</name>
    <tag></tag>
-
-   <elementGuidId>1d2d449f-6977-45ac-9a04-e06f647e18fe</elementGuidId>
-
+   <elementGuidId>d7fea996-840f-4f86-9523-2f302618813d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='username']</value>
+         <value>//input[@id='file-submit']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#username</value>
+         <value>#file-submit</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,87 +22,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-
-      <webElementGuid>cd44657d-8804-4283-84ef-c0fed9a4f3ca</webElementGuid>
-
+      <webElementGuid>97b9e3ff-c3ec-48df-b704-81ca977a8176</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>class</name>
       <type>Main</type>
-      <value>text</value>
-
-      <webElementGuid>c79187c3-78c7-470d-a9b6-dc040dca5978</webElementGuid>
-
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>username</value>
-
-      <webElementGuid>da07d5e6-8cb2-4bdd-b6ee-6fca065edb42</webElementGuid>
-
+      <value>button</value>
+      <webElementGuid>4aee8b50-6a99-4b7b-af64-09c51d7f5211</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>username</value>
-
-      <webElementGuid>be4bffe7-7559-477b-89bb-329a3cfd1996</webElementGuid>
-
+      <value>file-submit</value>
+      <webElementGuid>1cf5de55-51d7-47ea-b762-b0304ec5e65f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>482a7f88-017f-4436-b9c0-e06d0cd2d27c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Upload</value>
+      <webElementGuid>98296700-21e3-40d6-ab91-20053ad59ef2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;username&quot;)</value>
-
-      <webElementGuid>a735291e-1995-44be-bbcb-73c38af70288</webElementGuid>
-
+      <value>id(&quot;file-submit&quot;)</value>
+      <webElementGuid>7556a3ef-0517-44d5-8946-aafc7debbfed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='username']</value>
-
-      <webElementGuid>5af4634e-0006-42a4-8851-a2b661a4e5e0</webElementGuid>
-
+      <value>//input[@id='file-submit']</value>
+      <webElementGuid>4ff2f76a-894f-4c18-afef-5b3f86e23a91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='login']/div/div/input</value>
-
-      <webElementGuid>20fc0037-1435-4d34-9d89-9be014ce3f2a</webElementGuid>
-
+      <value>//div[@id='content']/div/form/input[2]</value>
+      <webElementGuid>b51f0067-e652-48e3-aad6-988d7a879d48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-
-      <webElementGuid>50af87a5-909c-4a8b-9950-81ca78de2c97</webElementGuid>
-
+      <value>//input[2]</value>
+      <webElementGuid>d743b3aa-3179-4bc3-84f7-3c8d778c9e3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @name = 'username' and @id = 'username']</value>
-      <webElementGuid>101b34c4-8210-4cdb-ad6a-ed03e9efec9c</webElementGuid>
-
+      <value>//input[@id = 'file-submit' and @type = 'submit']</value>
+      <webElementGuid>8f37430c-bbb4-4039-aaba-632736183350</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

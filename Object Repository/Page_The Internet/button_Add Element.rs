@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_Login</name>
+   <name>button_Add Element</name>
    <tag></tag>
-
-   <elementGuidId>100e8341-e163-47d3-852f-367eddd1333d</elementGuidId>
-
+   <elementGuidId>b1c82c66-9b30-47e4-9f74-0adb0af8cada</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='login']/button/i</value>
+         <value>//button[@onclick='addElement()']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>i.fa.fa-2x.fa-sign-in</value>
+         <value>button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,109 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
-
-      <webElementGuid>f8ba1ef3-20f3-4f02-bb30-98a71d2654f8</webElementGuid>
-
+      <value>button</value>
+      <webElementGuid>790194ea-2316-450a-be30-98c6b449ea58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>fa fa-2x fa-sign-in</value>
-
-      <webElementGuid>4a203927-1112-4b10-8bd6-c007617cd3f2</webElementGuid>
-
+      <value>addElement()</value>
+      <webElementGuid>765445b2-ab63-4a41-8963-1072ae381fe3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Login</value>
-
-      <webElementGuid>3ff0adc8-a127-4057-ac00-dab5acb926da</webElementGuid>
-
+      <value>Add Element</value>
+      <webElementGuid>f16cb024-9d71-4d00-aea3-abd3750668fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login&quot;)/button[@class=&quot;radius&quot;]/i[@class=&quot;fa fa-2x fa-sign-in&quot;]</value>
-
-      <webElementGuid>98e8cf4e-1bde-41cf-9684-bfcc16b9a22a</webElementGuid>
-
+      <value>id(&quot;content&quot;)/div[@class=&quot;example&quot;]/button[1]</value>
+      <webElementGuid>31269a92-ff01-47d0-8645-ad3fbfce3c16</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@onclick='addElement()']</value>
+      <webElementGuid>87cf0b96-47a7-4268-97c9-b76a44f61450</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='login']/button/i</value>
-
-      <webElementGuid>c0e99374-6271-4e25-bf0b-19e6d78e5acd</webElementGuid>
-
+      <value>//div[@id='content']/div/button</value>
+      <webElementGuid>1b59f259-ee62-4294-92c8-5e1e2d108eb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::i[1]</value>
-
-      <webElementGuid>963e77e1-c9ec-48c6-be10-f7ac04ed9df7</webElementGuid>
-
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add/Remove Elements'])[1]/following::button[1]</value>
+      <webElementGuid>c5acc143-96d5-4196-b4e6-ba013fab146b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::i[1]</value>
-
-      <webElementGuid>f07ec2d6-0670-4e77-86de-564e54a65bcb</webElementGuid>
-
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Elemental Selenium'])[1]/preceding::button[1]</value>
+      <webElementGuid>b3b1ed98-8748-4ff6-9e3f-c6348b0b097a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Elemental Selenium'])[1]/preceding::i[1]</value>
-
-      <webElementGuid>89f29cb0-e636-4b5c-9170-cdcc403171e4</webElementGuid>
-
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-
-      <webElementGuid>a462e96a-076d-4f47-90c8-34abbd5314ea</webElementGuid>
-
+      <value>//*/text()[normalize-space(.)='Add Element']/parent::*</value>
+      <webElementGuid>f69de803-8d5d-448c-a1a8-15d4f8cf95fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//i</value>
-
-      <webElementGuid>d105c88d-6a68-4339-b9a8-6ec415b65d33</webElementGuid>
-
+      <value>//button</value>
+      <webElementGuid>065176dc-0a98-49ea-a2e2-1ac75364ed1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//i[(text() = ' Login' or . = ' Login')]</value>
-
-      <webElementGuid>1eb98f95-07d2-401e-95dd-f7234b65bcb8</webElementGuid>
-
+      <value>//button[(text() = 'Add Element' or . = 'Add Element')]</value>
+      <webElementGuid>fb8f15fa-6922-4e02-9fa1-fabf2695eb0a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

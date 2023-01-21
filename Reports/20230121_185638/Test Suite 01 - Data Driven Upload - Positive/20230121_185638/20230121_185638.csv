@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 01 - Data Driven Upload - Positive,Chrome 109.0.0.0,,,2023-01-21 18:56:40,2023-01-21 18:57:49,1m - 8.866s,PASSED
+,,,,,,,
+Test Cases/TC02 - Upload File - Data Driven - Positive,Chrome 109.0.0.0,Test an upload single file,,2023-01-21 18:56:41,2023-01-21 18:56:55,14.038s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-21 18:56:41,2023-01-21 18:56:44,2.432s,PASSED
+"navigateToUrl(""http://the-internet.herokuapp.com/"")",Chrome 109.0.0.0,,,2023-01-21 18:56:44,2023-01-21 18:56:47,3.118s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/a_File Upload""))",Chrome 109.0.0.0,,,2023-01-21 18:56:47,2023-01-21 18:56:48,1.082s,PASSED
+"uploadFile(findTestObject(""Object Repository/Page_The Internet/choose_file""), PathLocal)",Chrome 109.0.0.0,,,2023-01-21 18:56:48,2023-01-21 18:56:48,0.500s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/button_Upload""))",Chrome 109.0.0.0,,,2023-01-21 18:56:48,2023-01-21 18:56:54,5.982s,PASSED
+"verifyTextPresent(""File Uploaded!"", false)",Chrome 109.0.0.0,,,2023-01-21 18:56:54,2023-01-21 18:56:55,0.410s,PASSED
+,,,,,,,
+Test Cases/TC02 - Upload File - Data Driven - Positive,Chrome 109.0.0.0,Test an upload single file,,2023-01-21 18:56:55,2023-01-21 18:57:05,10.071s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-21 18:56:55,2023-01-21 18:56:57,1.845s,PASSED
+"navigateToUrl(""http://the-internet.herokuapp.com/"")",Chrome 109.0.0.0,,,2023-01-21 18:56:57,2023-01-21 18:57:00,3.079s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/a_File Upload""))",Chrome 109.0.0.0,,,2023-01-21 18:57:00,2023-01-21 18:57:01,1.006s,PASSED
+"uploadFile(findTestObject(""Object Repository/Page_The Internet/choose_file""), PathLocal)",Chrome 109.0.0.0,,,2023-01-21 18:57:01,2023-01-21 18:57:01,0.468s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/button_Upload""))",Chrome 109.0.0.0,,,2023-01-21 18:57:01,2023-01-21 18:57:05,3.376s,PASSED
+"verifyTextPresent(""File Uploaded!"", false)",Chrome 109.0.0.0,,,2023-01-21 18:57:05,2023-01-21 18:57:05,0.290s,PASSED
+,,,,,,,
+Test Cases/TC02 - Upload File - Data Driven - Positive,Chrome 109.0.0.0,Test an upload single file,,2023-01-21 18:57:05,2023-01-21 18:57:14,8.610s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-21 18:57:05,2023-01-21 18:57:07,1.855s,PASSED
+"navigateToUrl(""http://the-internet.herokuapp.com/"")",Chrome 109.0.0.0,,,2023-01-21 18:57:07,2023-01-21 18:57:10,3.138s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/a_File Upload""))",Chrome 109.0.0.0,,,2023-01-21 18:57:10,2023-01-21 18:57:11,1.283s,PASSED
+"uploadFile(findTestObject(""Object Repository/Page_The Internet/choose_file""), PathLocal)",Chrome 109.0.0.0,,,2023-01-21 18:57:11,2023-01-21 18:57:12,0.520s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/button_Upload""))",Chrome 109.0.0.0,,,2023-01-21 18:57:12,2023-01-21 18:57:13,1.531s,PASSED
+"verifyTextPresent(""File Uploaded!"", false)",Chrome 109.0.0.0,,,2023-01-21 18:57:13,2023-01-21 18:57:14,0.276s,PASSED
+,,,,,,,
+Test Cases/TC02 - Upload File - Data Driven - Positive,Chrome 109.0.0.0,Test an upload single file,,2023-01-21 18:57:14,2023-01-21 18:57:26,12.756s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-21 18:57:14,2023-01-21 18:57:16,1.935s,PASSED
+"navigateToUrl(""http://the-internet.herokuapp.com/"")",Chrome 109.0.0.0,,,2023-01-21 18:57:16,2023-01-21 18:57:19,3.156s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/a_File Upload""))",Chrome 109.0.0.0,,,2023-01-21 18:57:19,2023-01-21 18:57:20,1.024s,PASSED
+"uploadFile(findTestObject(""Object Repository/Page_The Internet/choose_file""), PathLocal)",Chrome 109.0.0.0,,,2023-01-21 18:57:20,2023-01-21 18:57:20,0.466s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/button_Upload""))",Chrome 109.0.0.0,,,2023-01-21 18:57:20,2023-01-21 18:57:26,5.881s,PASSED
+"verifyTextPresent(""File Uploaded!"", false)",Chrome 109.0.0.0,,,2023-01-21 18:57:26,2023-01-21 18:57:26,0.285s,PASSED
+,,,,,,,
+Test Cases/TC02 - Upload File - Data Driven - Positive,Chrome 109.0.0.0,Test an upload single file,,2023-01-21 18:57:26,2023-01-21 18:57:39,12.145s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-21 18:57:26,2023-01-21 18:57:28,1.754s,PASSED
+"navigateToUrl(""http://the-internet.herokuapp.com/"")",Chrome 109.0.0.0,,,2023-01-21 18:57:28,2023-01-21 18:57:31,3.158s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/a_File Upload""))",Chrome 109.0.0.0,,,2023-01-21 18:57:31,2023-01-21 18:57:32,1.118s,PASSED
+"uploadFile(findTestObject(""Object Repository/Page_The Internet/choose_file""), PathLocal)",Chrome 109.0.0.0,,,2023-01-21 18:57:32,2023-01-21 18:57:33,0.492s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/button_Upload""))",Chrome 109.0.0.0,,,2023-01-21 18:57:33,2023-01-21 18:57:38,5.224s,PASSED
+"verifyTextPresent(""File Uploaded!"", false)",Chrome 109.0.0.0,,,2023-01-21 18:57:38,2023-01-21 18:57:39,0.392s,PASSED
+,,,,,,,
+Test Cases/TC02 - Upload File - Data Driven - Positive,Chrome 109.0.0.0,Test an upload single file,,2023-01-21 18:57:39,2023-01-21 18:57:49,10.755s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-21 18:57:39,2023-01-21 18:57:40,1.810s,PASSED
+"navigateToUrl(""http://the-internet.herokuapp.com/"")",Chrome 109.0.0.0,,,2023-01-21 18:57:40,2023-01-21 18:57:44,3.200s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/a_File Upload""))",Chrome 109.0.0.0,,,2023-01-21 18:57:44,2023-01-21 18:57:45,1.154s,PASSED
+"uploadFile(findTestObject(""Object Repository/Page_The Internet/choose_file""), PathLocal)",Chrome 109.0.0.0,,,2023-01-21 18:57:45,2023-01-21 18:57:45,0.484s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/button_Upload""))",Chrome 109.0.0.0,,,2023-01-21 18:57:45,2023-01-21 18:57:49,3.711s,PASSED
+"verifyTextPresent(""File Uploaded!"", false)",Chrome 109.0.0.0,,,2023-01-21 18:57:49,2023-01-21 18:57:49,0.389s,PASSED
