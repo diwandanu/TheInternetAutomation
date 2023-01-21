@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_Login</name>
+   <name>div_Your password is invalid</name>
    <tag></tag>
-
-   <elementGuidId>100e8341-e163-47d3-852f-367eddd1333d</elementGuidId>
-
+   <elementGuidId>55112bf9-4a66-4549-a124-67743d3b3e69</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='login']/button/i</value>
+         <value>//div[@id='flash']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>i.fa.fa-2x.fa-sign-in</value>
+         <value>#flash</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,109 +21,104 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
-
-      <webElementGuid>f8ba1ef3-20f3-4f02-bb30-98a71d2654f8</webElementGuid>
-
+      <value>div</value>
+      <webElementGuid>fa9042e3-61e4-4dac-9b4e-835d316979a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>flash</value>
+      <webElementGuid>d6f3416b-3073-4b5d-ae53-73c1aa379a87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fa fa-2x fa-sign-in</value>
-
-      <webElementGuid>4a203927-1112-4b10-8bd6-c007617cd3f2</webElementGuid>
-
+      <value>flash error</value>
+      <webElementGuid>ce815287-1f7d-4757-962e-2bfe7d1bcee8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Login</value>
-
-      <webElementGuid>3ff0adc8-a127-4057-ac00-dab5acb926da</webElementGuid>
-
+      <value>
+            Your password is invalid!
+            ×
+          </value>
+      <webElementGuid>0d9ca893-9934-49a8-a0cf-3bea36039479</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login&quot;)/button[@class=&quot;radius&quot;]/i[@class=&quot;fa fa-2x fa-sign-in&quot;]</value>
-
-      <webElementGuid>98e8cf4e-1bde-41cf-9684-bfcc16b9a22a</webElementGuid>
-
+      <value>id(&quot;flash&quot;)</value>
+      <webElementGuid>7b062153-414b-4285-b3fa-d9867e1f72bf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='flash']</value>
+      <webElementGuid>f84fcf1c-4e35-4f96-b638-d1c3fefceb13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='login']/button/i</value>
-
-      <webElementGuid>c0e99374-6271-4e25-bf0b-19e6d78e5acd</webElementGuid>
-
+      <value>//div[@id='flash-messages']/div</value>
+      <webElementGuid>35324409-81e2-4682-a197-ed9080df4cba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::i[1]</value>
-
-      <webElementGuid>963e77e1-c9ec-48c6-be10-f7ac04ed9df7</webElementGuid>
-
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login Page'])[1]/preceding::div[1]</value>
+      <webElementGuid>9fcbf4f8-5fb3-445d-919e-43feea85dee4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::i[1]</value>
-
-      <webElementGuid>f07ec2d6-0670-4e77-86de-564e54a65bcb</webElementGuid>
-
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='tomsmith'])[1]/preceding::div[1]</value>
+      <webElementGuid>7b2dc4da-c067-49c6-a3d1-fb402a3c0aa7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Elemental Selenium'])[1]/preceding::i[1]</value>
-
-      <webElementGuid>89f29cb0-e636-4b5c-9170-cdcc403171e4</webElementGuid>
-
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-
-      <webElementGuid>a462e96a-076d-4f47-90c8-34abbd5314ea</webElementGuid>
-
+      <value>//*/text()[normalize-space(.)='Your password is invalid!']/parent::*</value>
+      <webElementGuid>b2f10782-f0dd-4ef5-ac3b-a27d0e0ffc27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//i</value>
-
-      <webElementGuid>d105c88d-6a68-4339-b9a8-6ec415b65d33</webElementGuid>
-
+      <value>//div/div/div</value>
+      <webElementGuid>726f532a-397d-48a4-9799-92099c4c2d81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//i[(text() = ' Login' or . = ' Login')]</value>
-
-      <webElementGuid>1eb98f95-07d2-401e-95dd-f7234b65bcb8</webElementGuid>
-
+      <value>//div[@id = 'flash' and (text() = '
+            Your password is invalid!
+            ×
+          ' or . = '
+            Your password is invalid!
+            ×
+          ')]</value>
+      <webElementGuid>818c8b7f-5450-4e5d-b1d9-5b7b878c9bf0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

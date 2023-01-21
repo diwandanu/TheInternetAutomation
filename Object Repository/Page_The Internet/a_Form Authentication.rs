@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Form Authentication</name>
    <tag></tag>
-   <elementGuidId>cac222d7-f6bd-4274-9b5c-7c5be9b335e6</elementGuidId>
+   <elementGuidId>bf96ff2b-8efb-4d95-9950-6d557b6457b9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,9 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>091b24e4-1607-4b7d-8c5d-b962c27bf26e</webElementGuid>
+
+      <webElementGuid>b7d8e4ac-9609-4355-bf29-35c11fdcab44</webElementGuid>
+
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +32,9 @@
       <name>href</name>
       <type>Main</type>
       <value>/login</value>
-      <webElementGuid>f7321672-c47f-476a-8a51-d31bbe3bd25e</webElementGuid>
+      <webElementGuid>4c3983c5-6c36-489f-a573-c5ef392efd84</webElementGuid>
+
+
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,9 @@
       <name>text</name>
       <type>Main</type>
       <value>Form Authentication</value>
-      <webElementGuid>d2d6aca6-158e-4a3b-a24a-9fa99472cd7d</webElementGuid>
+
+      <webElementGuid>ffb2314f-54ea-4331-a2ac-c90b704a2866</webElementGuid>
+
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +52,11 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;content&quot;)/ul[1]/li[21]/a[1]</value>
+      
+      <webElementGuid>aff252be-fbcd-483c-b29b-3eb53a1c1521</webElementGuid>
+
       <webElementGuid>7c80ea43-acf3-400d-9c70-7efa80291b83</webElementGuid>
+
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +64,9 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='content']/ul/li[21]/a</value>
-      <webElementGuid>53c26075-e406-431d-884a-a3991d94d700</webElementGuid>
+
+      <webElementGuid>5a1a3128-5cb3-4fe8-b1e7-557e540d3b6f</webElementGuid>
+
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +74,9 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Form Authentication')]</value>
-      <webElementGuid>c612f545-c3a6-4e0c-b0f5-1be1614b7ca1</webElementGuid>
+
+      <webElementGuid>13a8f908-8386-41e4-a879-56e7f35ff69d</webElementGuid>
+
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +84,9 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password'])[1]/following::a[1]</value>
-      <webElementGuid>f305c3e4-071a-460a-a099-0d92667e33d3</webElementGuid>
+
+      <webElementGuid>71944a93-9df5-4c71-8e03-04dc518cefa2</webElementGuid>
+
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +94,9 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Floating Menu'])[1]/following::a[2]</value>
-      <webElementGuid>a5f412b2-75cc-40f7-bd89-0c4f185f924c</webElementGuid>
+
+      <webElementGuid>0e94f798-3cdb-4647-a794-92c577ed922d</webElementGuid>
+
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +104,9 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Frames'])[1]/preceding::a[1]</value>
-      <webElementGuid>a87c939e-cd46-4092-9b24-01bd377fdab3</webElementGuid>
+
+      <webElementGuid>6086f77f-5ee2-4611-8287-f5426481baef</webElementGuid>
+
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +114,9 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Geolocation'])[1]/preceding::a[2]</value>
-      <webElementGuid>d0700612-e1cb-4ed4-bdeb-cf807b21f8d4</webElementGuid>
+
+      <webElementGuid>2079c674-2cb3-4b6a-b432-c3cbea95a119</webElementGuid>
+
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +124,9 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Form Authentication']/parent::*</value>
-      <webElementGuid>11a3d75b-caaa-46dc-9ef7-9469e7520e6e</webElementGuid>
+
+      <webElementGuid>8055d429-a492-4ce6-ae43-dd77ebf98dc3</webElementGuid>
+
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +134,9 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/login')]</value>
-      <webElementGuid>d0546608-b52b-42a5-8a9c-03d480e60034</webElementGuid>
+
+      <webElementGuid>ad332152-86f6-46e4-bc43-7f94a18400f5</webElementGuid>
+
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +144,9 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[21]/a</value>
-      <webElementGuid>01f92c61-fd7e-485b-8c63-b94f2c12ee93</webElementGuid>
+
+      <webElementGuid>f91fd735-cee5-4d19-99d9-a4f0998505be</webElementGuid>
+
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +154,8 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/login' and (text() = 'Form Authentication' or . = 'Form Authentication')]</value>
-      <webElementGuid>8cd29027-06fc-4ae5-891a-d5cda3336d2f</webElementGuid>
+
+      <webElementGuid>e6c7305a-1a2b-49f1-bafd-c90f1fefc40b</webElementGuid>
+
    </webElementXpaths>
 </WebElementEntity>
