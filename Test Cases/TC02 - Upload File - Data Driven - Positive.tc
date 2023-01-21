@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test an upload single file</description>
+   <name>TC02 - Upload File - Data Driven - Positive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5519c5fb-576f-4c4f-af6b-3ba9244ef0e3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea70c3da-90b4-4c7b-bef7-6f8d22b56339</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ea70c3da-90b4-4c7b-bef7-6f8d22b56339</id>
+      <masked>false</masked>
+      <name>PathLocal</name>
+   </variable>
+</TestCaseEntity>

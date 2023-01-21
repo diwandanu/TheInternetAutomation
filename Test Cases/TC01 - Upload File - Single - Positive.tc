@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test an upload single file</description>
+   <name>TC01 - Upload File - Single - Positive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8892f1c-ae09-4d3f-aa52-9b4879cd4a67</testCaseGuid>
+</TestCaseEntity>
